@@ -1,88 +1,151 @@
 /*Global Styles*/
 
 * {
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
-    color: #282828;
-    font-size: .8rem;
-    font-weight: lighter;
-    margin: 8px;
-    text-decoration: none;
+  color: #282828;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin: 8px;
+  text-decoration: none;
 }
 
 /*Element Styles*/
 
 footer {
-    background-color: #F1F1F1;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header {
-    display: flex;
-    margin: 1em;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  margin: .7em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons";
+  font-size: 1.5em;
+  color: #4e4e4e;
+  content: "apps";
+    margin: 8px;
+}
+
+.material-icons-outlined2 {
+  font-family: "Material Icons";
+  font-size: 1.5em;
+  color: #adacac;
+  content: "search";
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+
+.material-icons-outlined3 {
+  font-family: "Material Icons";
+  font-size: 1.5em;
+  color: #adacac;
+  content: "keyboard_voice";
+  position: relative;
+  top: 8px;
+  right: 35px;
 }
 
 .footer1 {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 .footer-links {
-    color: #4E4E4E;
-    font-size: .9rem;
+  color: #4e4e4e;
+  font-size: 0.9rem;
 }
 
 .google-search {
-    border: none;
-    border-radius: 5px;
-    font-size: .9rem;
-    font-weight: lighter;
-    height: 35px;
-    margin: 7px;
-    width: 135px;
-    background-color:#F1F1F1;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  height: 35px;
+  margin: 7px;
+  width: 135px;
+  background-color: #f1f1f1;
 }
 
 .google-search:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.nav-links {
+    margin-top: 12px;
 }
 
 #image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8.5em;
+}
+
+#input-container {
+  display: flex;
+}
+
+#about, #navigation {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10em;
+align-content: center;
+  margin-right: 35px;
 }
 
 #search {
-    margin: 20px auto;
-    height: 200px;
-    width: 480px;
+  margin: 30px auto;
+  height: 200px;
+  width: 33em;
 }
 
 #search-buttons {
-    display:flex;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
+#sign-in {
+  background-color: rgb(66, 116, 252);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  height: 30px;
+  width: 70px;
+  margin: 8px;
+  padding: 0;
+}
 
 #web-search {
-    background-color: white;
-    border: 1px solid #DBDBDB;
-    border-radius: 50px;
-    height: 3.7em;
-    min-width: 100%
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+  font-size: 1rem;
+  height: 3em;
+  width: 200em;
+  justify-content: center;
+  outline: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: scroll;
 }
 
+#web-search:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(136, 139, 141, 0.4);
+  transition: all 0.3s ease;
+}
